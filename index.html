@@ -4,11 +4,17 @@
 <meta name="Author" content="Andre Miles" />
 <title>Quero praia!</title>
 <link rel="shortcut icon" href="favicon.ico" />
-<style>
-	
-</style>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- SCM Music Player http://scmplayer.net -->
 <script type="text/javascript" src="http://scmplayer.net/script.js" 
 data-config="{'skin':'skins/simpleBlue/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':2,'placement':'top','showplaylist':false,'playlist':[{'title':'Som da praia','url':'https://www.youtube.com/watch?v=JAC-hluveR4'}]}" ></script>
@@ -40,5 +46,6 @@ data-config="{'skin':'skins/simpleBlue/skin.css','volume':50,'autoplay':true,'sh
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
 	</div>
+	<div class="fb-share-button" data-href="http://andremiles.github.io/praiaonline/" data-layout="button_count"></div>
 </body>
 </html>
